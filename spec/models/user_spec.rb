@@ -8,5 +8,6 @@ RSpec.describe User, type: :model do
   it { expect(@user).to respond_to(:password) }
   it { expect(@user).to respond_to(:password_confirmation) }
   it { expect(@user).to be_valid }
-  pending "add some examples to (or delete) #{__FILE__}"
+  
+  #pending "add some examples to (or delete) #{__FILE__}"
 end
